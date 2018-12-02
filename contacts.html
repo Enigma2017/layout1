@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>contacts page</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="discription" content="">
+	<meta name="keywords" content="LAB Consulting, legal business, финансовый аутсортинг, бизнес-консалтинг">
+	<link rel="icon" href="#" type="image/x-icon">
+	<link rel="shortcut icon" href="#" type="image/x-icon"> 
+	<meta property="og:title" content="верстка">
+	<meta property="og:description" content="LAB офис в Одессе, LAB офис в Киеве, LAB офис в Харькове">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="lab.com">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/contacts.css">
+	<link rel="stylesheet" type="text/css" href="css/contacts-media.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmgXHwV2jjhooX3yMh_aDRVvAEKVxxc-4 "></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="top__menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-7 col-lg-4">
+						<img src="img/logo.png" alt="logo" class="logo img-fluid">
+					</div>
+					<div class="col-lg-6 d-lg-block menu-collapse d-none">
+						<nav class="top__main_menu">
+							<ul class="top__menu_items d-lg-flex d-md-block flex">
+								<li class="menu__item"><a href="home.html">О компании</a></li>
+								<li class="menu__item"><a href="about.html">Пресс-центр</a></li>
+								<li class="menu__item"><a href="service.html">Услуги</a></li>
+								<li class="menu__item"><a href="#">Отрасли</a></li>
+								<li class="menu__item"><a href="contacts.html">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-3 col-lg-2" style="margin-top: 40px;">
+						<a href="#" class="green__menu_button header__button"><span><i class="fa fa-phone green-light"></i></span>Заказать звонок</a>
+					</div>
+					<div class="col-2 d-lg-none">
+						<button class="menu-open">
+							<i class="fa fa-navicon"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="light__blue_line">
+			<div class="container">
+				<div class="row line_icon">
+					<div class="col-12 col-lg-10">
+						<ul class="header__icons_line d-flex">
+							<li class="facebook__icon"><a href="#"><i class="fa fa-facebook dark-blue"></i></a></li>
+							<li class="twitter__icon"><a href="#"><i class="fa fa-twitter light-blue"></i></a></li>
+							<li class="telegram__icon"><a href="#"><i class="fa fa-telegram blue"></i></a></li>
+							<li class="arrow__icon"><img src="img/arrow-a.png" alt="arrow"></li>
+							<li class="text__icon">
+								<p class="text__icon_item">Ваш надежный партнер в области транспортно-логистического сопровождения</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-2 search__button">
+						<form action="#">
+							<input type="text" placeholder="Поиск" name="search" class="input__search">
+							<button type="submit" class="search"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about__company">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h1 class="about__company_title">Контакты</h1>
+						<p class="company__link"><a href="home.html" class="about__company_link">Главная</a> → Контактная информация</p>
+					</div>
+					<div class="col-lg-6">
+						<ul class="d-sm-flex justify-content-between">
+							<li class="about__company_item"><a href="#" class="nav-link active">Офис в Одессе</a></li>
+							<li class="about__company_item"><a href="#" class="nav-link">Офис в Киеве</a></li>
+							<li class="about__company_item"><a href="#" class="nav-link">Офис в Харькове</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="map__odessa" class="map__odessa">
+		<div class="map" id="map"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="map__block">
+						<div class="map__info_adress">
+							<div class="map__block_trg"><img src="img/trg-map.png" alt="trg" class="trg"></div>
+							<div class="map__title"><h3>LAB Consulting</h3></div>
+							<div class="map__icons">
+								<ul class="map__icons_line d-flex">
+									<li class="facebook__icon_item"><a href="#"><i class="fa fa-facebook white"></i></a></li>
+									<li class="twitter__icon_item"><a href="#"><i class="fa fa-twitter white"></i></a></li>
+									<li class="telegram__icon_item"><a href="#"><i class="fa fa-telegram white"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="light__blue_side"></div>
+						<div class="d-flex">
+							<div class="first__block">
+								<p class="first__block_text phone__text"><i class="fa fa-phone white"></i> +38 (048) 756-23-54</p>
+								<p class="first__block_text phone__text"><i class="fa fa-phone white"></i> +38 (048) 756-23-54</p>
+								<div class="d-flex">
+									<i class="fa fa-location-arrow"></i>
+									<p class="first__block_text adress__text">
+									65000,<br> Украина, г. Одесса Ул Базарная, 36
+									</p>
+								</div>
+								<p class="first__block_text mail__text"><i class="fa fa-envelope"></i> info@lab-consult.com</p>
+							</div>
+							<div class="second__block">
+								<p class="second__block_text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+								<p class="second__block_text">
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="branches" id="branches">
+		<div class="branches__dark_blue">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">О компании</h4>
+						<ul class="branches__describe">
+							<li>Видение, миссия и ценности</li>
+							<li>Преимущества</li>
+							<li>Клиенты</li>
+							<li>Партнеры</li>
+							<li>Контакты</li>
+						</ul>
+					</div>
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">Пресс-центр</h4>
+						<ul class="branches__describe">
+							<li>Новости</li>
+							<li>Публикации</li>
+							<li>Мероприятия</li>
+							<li>Консультация эксперта</li>
+						</ul>
+					</div>
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">Услуги</h4>
+						<ul class="branches__describe">
+							<li>Legal (Юридическое сопровождение)</li>
+							<li>Accounting (Финансовый аутсорсинг)</li>
+							<li>Business Consulting (Бизнес консалтинг)</li>
+							<li>Консультация эксперта</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">Отрасли</h4>
+						<ul class="branches__describe below__line">
+							<li>Аграрный сектор</li>
+							<li>Внешнеэкономическая деятельность</li>
+							<li>ИT – бизнес</li>
+							<li>Оптовая и розничная торговля</li>
+							<li>Сфера услуг</li>
+							<li>Транспорт и Логистика</li>
+						</ul>
+					</div>
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">Образовательный центр</h4>
+						<ul class="branches__describe below__line">
+							<li>Про Образовательный Центр</li>
+							<li>Бизнес-тренинги, семинары, круглые столы</li>
+							<li>Преимущества</li>
+							<li>Alumni</li>
+						</ul>
+					</div>
+					<div class="col-7 col-sm-4 col-lg-4">
+						<h4 class="branches__title">Соц. предпринимательство</h4>
+						<ul class="branches__describe below__line">
+							<li>Социальная миссия</li>
+							<li>Проекты </li>
+							<li>Партнеры </li>
+							<li>Консультация эксперта</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="footer__block">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-5 col-lg-4">
+						<img src="img/logo-f.png" class="img-fluid">
+					</div>
+					<div class="col-5 col-lg-3">
+						<ul class="cooperation">
+							<li>Вы хотите сотрудничать с нами?</li>
+							<li>У Вас есть идеи или предложения?</li>
+							<br>
+							<li>65000,</li>
+							<li>Украина, г. Одесса</li>
+							<li>Ул Базарная, 36</li>
+						</ul>
+					</div>
+					<div class="col-5 col-lg-3">
+						<ul class="cooperation">
+							<li class="d-flex">
+								<div class="a__logo_a text-center">A</div>
+								<div>Дизайн и разработка
+									<p class="a__logo_author">Андрей Гаврилов</p>
+								</div>
+							<li>© Все права защищены</li>
+							<li><span class="strong__font">LAB Consulting</span></li>
+							<li><a href="#" class="footer__mail">lab-consult.com</a></li>
+						</ul>
+					</div>
+					<div class="col-5 col-lg-2" style="margin-top: 40px;">
+						<a href="#" class="green__menu_button footer__button"><span><i class="fa fa-phone green-light"></i></span>Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__blue_line"></div>
+	</footer>
+	<!--Modal window-->
+	<div class="d-none">
+    <div class="box-modal" id="exampleModal">
+        <div class="box-modal_close arcticmodal-close"><i class="fa fa-close"></i></div>
+        <form class="form js-form" id="popupResult" action="success.php" method="POST">
+        	<p class="form__title">
+        		Заполните, пожалуйста, обязательно все поля! 
+        	</p>
+        	<input class="form__input form-control form__field" type="text" name="name" placeholder="Имя" required>
+			<input class="form__input form-control form__field" type="email" name="email" placeholder="E-mail" required>
+			<input class="form__input form-control form__field" type="tel" name="tel" placeholder="Телефон" required>
+			<button class="green__menu_button button" data-submit>Заказать звонок</button>
+        </form>
+    </div>
+</div>
+<div id="loader">
+    <img src="img/ripple.svg" alt="loader">
+</div>
+<div id="overlay">
+    <div id="thx">
+        Благодарим! Мы обязательно вам перезвоним! 
+    </div>
+</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/form.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/map-block.js"></script>
+</body>
+</html>
